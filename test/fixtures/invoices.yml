@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 
+  contragent: MyString
+  currency: MyString
+  date: 2019-01-11
+
+two:
+  amount: 
+  contragent: MyString
+  currency: MyString
+  date: 2019-01-11
