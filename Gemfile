@@ -23,6 +23,11 @@ gem 'coffee-rails', '~> 4.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'rename', '~> 1.0', '>= 1.0.6' #added by Varun
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1' #added by Varun
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1' #added by Varun
+gem 'simple_form', '~> 4.1' #added by Varun
+gem 'bootstrap-sass', '~> 3.4' #added by Varun
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

@@ -1,0 +1,8 @@
+<%= simple_form_for @invoice do |f| %>
+  <%= f.input :amount %>
+  <%= f.input :company %>
+  <%= f.input :contragent %>
+  <%= f.input :currency %>
+  <%= f.input :date %>
+  <%= f.button :submit, class: "btn btn-info" %>
+<% end %>

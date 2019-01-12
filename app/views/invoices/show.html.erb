@@ -1,2 +1,33 @@
-<h1>Invoices#show</h1>
-<p>Find me in app/views/invoices/show.html.erb</p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="show-invoice">
+      <h2>Invoice</h2>
+      <table class = "table">
+        <tbody>
+          <tr>
+            <th>Amount</th>
+            <td><%= @invoice.amount %></td>
+          </tr>
+          <tr>
+            <th>Company</th>
+            <td><%= @invoice.company %></td>
+          </tr>
+          <tr>
+            <th>Contragent</th>
+            <td><%= @invoice.contragent %></td>
+          </tr>
+          <tr>
+            <th>Currency</th>
+            <td><%= @invoice.currency %></td>
+          </tr>
+          <tr>
+            <th> Date </th>
+            <td><%= @invoice.date %></td>
+          </tr>
+        </tbody>
+      </table>
+      <%= link_to("Back", invoices_path, class: "btn btn-info") %>
+      <%= link_to("Edit Invoice", edit_invoice_path(@invoice), class: "btn btn-warning") %>
+    </div>
+  </div>
+</div>
